@@ -1,0 +1,22 @@
+A platform to help developers build, share and run CONTAINER APPLICATIONS that run on any system
+
+-encapsule everything that requires to run the application
+-Isolate
+-Scalable
+
+development| testing | deployment --- Configuration | Infrastructure | Dependencies
+
+Docker Engine [ Create , Manage , Run ] Containers
+    Docker Daemon [Service, Manages docker-objects like images, containers, networks, volumes]
+    Docker REST API [means of interaction between User CLI - Daemon ]
+    Docker CLI [user - comms with Daemon for building images, running and managing containers]
+
+
+
+Docker Image [stand-alone executable software package]
+[ os | code | runtime | libraries | env | config ]
+
+Docker File [Instructions to build Docker Image]
+
+Docker Container [Portable Isolated Environment encapsulating Application, Dependencies, vars]
+
